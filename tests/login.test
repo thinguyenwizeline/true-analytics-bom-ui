@@ -1,0 +1,6 @@
+@@ set domain localhost:8080
+
+Login page on desktop
+    http://${domain}/   1024x768
+        run ../js/navigateToLogin.js
+        check ../page-objects/login.gspec

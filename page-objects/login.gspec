@@ -1,0 +1,13 @@
+@objects
+    header-logo           xpath        //div[@class='kc-logo-text']/span
+    username-label        xpath        //div[@class='form-group']/label[@for='username']
+    username-input        id           username
+    password-label        xpath        //div[@class='form-group']/label[@for='password']
+    password-input        id           password
+    login-button          id           kc-login
+
+= Main section =
+     = Login Form =
+        username-label:
+            css font-weight is "600"
+

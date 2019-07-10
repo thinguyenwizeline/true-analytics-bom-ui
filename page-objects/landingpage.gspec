@@ -1,0 +1,10 @@
+@objects
+    welcome-header      xpath           //div[@class='welcome-header']/img
+
+= Main section =
+    = Welcome header =
+        welcome-header:
+            css width is "150px"
+            css margin-bottom is "40px"
+            css vertical-align is "middle"
+            css border is "0"
